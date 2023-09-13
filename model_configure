@@ -1,0 +1,37 @@
+start_year:              2020
+start_month:             11
+start_day:               10
+start_hour:              00
+start_minute:            0
+start_second:            0
+nhours_fcst:             168
+fhrot:                   0
+
+dt_atmos:                150
+calendar:                'julian'
+restart_interval:        12 -1
+output_1st_tstep_rst:    .false.
+
+quilting:                .true.
+quilting_restart:        .true.
+write_groups:            4
+write_tasks_per_group:   120
+itasks:                  1
+output_history:          .true.
+write_dopost:            .true.
+write_nsflip:            .true.
+num_files:               2
+filename_base:           'atm' 'sfc'
+output_grid:             gaussian_grid
+output_file:             'netcdf_parallel' 'netcdf_parallel'
+ichunk2d:                3072
+jchunk2d:                1536
+ichunk3d:                3072
+jchunk3d:                1536
+kchunk3d:                1
+ideflate:                1
+nbits:                   14
+imo:                     3072
+jmo:                     1536
+output_fh:                0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 123 126 129 132 135 138 141 144 147 150 153 156 159 162 165 168
+iau_offset:              0
